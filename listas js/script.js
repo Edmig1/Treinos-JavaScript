@@ -201,3 +201,111 @@
 // }
 // console.log(ma)
 
+// var matriz = [
+//     [1,2,3],
+//     [0,5,4],
+//     [6,7,9]
+// ]
+
+// var linha1 = (matriz[0])
+// var ultima = matriz.lenght -1
+
+// console.log(matriz)
+
+// todo MAIOR DA NUM DA MATRIZ
+
+// var matriz = [
+//     [1,5,7],
+//     [2,6,4],
+//     [8,9,3],
+//     [14,3,70]
+// ]
+// filtrado = []
+// for (var linha = 0; linha < matriz.length; linha++) {
+//     var min = Math.min(...matriz[linha]);
+//     var max = Math.max(...matriz[linha]);
+//     filtrado.push(min, max)
+
+// }
+// filmin = Math.min(...filtrado)
+// filmax = Math.max(...filtrado)
+// console.log("O Menor e Maior números, são respectivamente: " + filmin,"e", filmax)
+
+// ? MATRIZ IDENTICAS
+
+// var matriz1 = [
+//     [1,5,7],
+//     [2,6,4],
+//     [8,9,3],
+//     [14,3,70]
+// ]
+
+// var matriz2 = [
+//     [1,5,7],
+//     [2,6,4],
+//     [8,9,3],
+//     [14,3,70]
+// ]
+// var sn = "Iguais"
+// if (matriz1.length != matriz2.length){
+//     sn = "Diferentes"
+    
+// }else{
+// for (var linha = 0; linha < matriz1.length; linha++) {
+//     for (var coluna = 0; coluna < matriz1[linha].length; coluna++){
+//         if (matriz1[linha][coluna] != matriz2 [linha][coluna]){
+//             sn = "Diferentes"
+//             break
+//         }
+//         if (matriz1[linha].length != matriz2 [linha].length){
+//             sn = "Diferentees"
+//             break
+//         }
+//     }
+// }
+// }
+// console.log(sn)
+
+// !!!!!! FUNÇOES JS
+
+
+// function soma(n1 = 1, n2 = 2){
+//     let somar = n1 + n2
+//     console.log(somar)
+// }
+// soma()
+
+
+// * Soma de lista
+// var soma = 0
+// var lista = []
+// function somarlistas(lista){
+// for (let item = 0; item < lista.length; item++) {
+//     soma = soma + lista[item]
+
+// }
+// console.log(soma)}
+
+// console.log("Digite somarlistas() e atribua os números desejados:")
+
+
+// todo add e list
+var lista = []
+function add(num){
+    var adicionar = prompt("Digite um número:"  )
+    lista.push(adicionar)
+    var maisum = prompt("Deseja colocar mais um?: digite 1 para sim e 2 para não"  )
+    if(maisum == "1"){
+        add()
+    }else if(maisum == "2"){
+        
+    }
+    
+
+}
+add()
+function listar (){
+    console.log(lista)
+}
+listar()
+
