@@ -1,5 +1,5 @@
 // ! Múltiplos de 2
-// var num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// var num = [1,2,3,4,7,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 // var par = []
 
 // for(var indi = 0; indi < num.length; indi++) {
@@ -192,12 +192,12 @@
 //     var lista = []
 //     for (var coluna = 0; coluna < matriz[linha].length; coluna++){
 //         lista.push(matriz[coluna][linha])
-    
-        
+
+
 
 //     }
 //     ma.push(lista)
-    
+
 // }
 // console.log(ma)
 
@@ -249,7 +249,7 @@
 // var sn = "Iguais"
 // if (matriz1.length != matriz2.length){
 //     sn = "Diferentes"
-    
+
 // }else{
 // for (var linha = 0; linha < matriz1.length; linha++) {
 //     for (var coluna = 0; coluna < matriz1[linha].length; coluna++){
@@ -290,22 +290,66 @@
 
 
 // todo add e list
-var lista = []
-function add(num){
-    var adicionar = prompt("Digite um número:"  )
-    lista.push(adicionar)
-    var maisum = prompt("Deseja colocar mais um?: digite 1 para sim e 2 para não"  )
-    if(maisum == "1"){
-        add()
-    }else if(maisum == "2"){
-        
-    }
-    
+// var lista = []
+// function add(num){
+//     var adicionar = prompt("Digite um número:"  )
+//     lista.push(adicionar)
+//     var maisum = prompt("Deseja colocar mais um?: digite 1 para sim e 2 para não"  )
+//     if(maisum == "1"){
+//         add()
+//     }else if(maisum == "2"){
 
-}
-add()
-function listar (){
-    console.log(lista)
-}
-listar()
+//     }
+
+
+// }
+// add()
+// function listar (){
+//     console.log(lista)
+// }
+// listar()
+
+// ? Detectar se um número é primo
+
+// function check(num) {
+//     var esc = prompt("Digite um número")
+//     num = esc
+//     for (var i = 2; i < num - 1; i++) {
+//         if (num % i == 0) {
+//             console.log("Não é primo")
+//             return
+//         } 
+//     }
+//     console.log("é primo")
+// }
+// check()
+
+// ! Impares
+
+// var n1 = 0
+// var n2 = 0
+// listaimp = []
+
+// function Econtrarimpares(n1, n2) {
+//     var num1 = prompt("Digite o 1° Número")
+//     var num2 = prompt("Digite o 2° Número")
+//     n1 = num1
+//     n2 = num2
+//     for (var i = n1; i <= n2; i++) {
+//         if(i % 2 != 0){
+//             listaimp.push(i)
+//         }
+//     }
+//     console.log(listaimp)
+// }
+// Econtrarimpares()
+
+// *DESAFIO DO SARUEL
+
+// var pergunta = prompt("qual dia você entrou de férias: ")
+// var num = 0
+// var pergunta2 = prompt("quantos dias serão suas férias?: ")
+// var soma = (parseInt(pergunta) + parseInt(pergunta2))%7
+// console.log("O dia que você irá voltar é ")
+// console.log((soma+num))
 
